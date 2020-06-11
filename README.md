@@ -1,18 +1,18 @@
-= OFX
+# OFX
 
-== Dovetail Studios Fork ==
+## Dovetail Studios Fork ==
 ![Ruby Specs](https://github.com/dovetail-studios/ofx/workflows/Ruby/badge.svg)
 
 - Updated dependencies
 - Fixed specs
 
-==
+##
 
 A simple OFX (Open Financial Exchange) parser built on top of Nokogiri. Currently supports both OFX 1.0.2 and 2.1.1.
 
 Works on both ruby 1.9 and 2.0.
 
-== Usage
+## Usage
 
   require "ofx"
 
@@ -24,15 +24,15 @@ Works on both ruby 1.9 and 2.0.
 
 Invalid files will raise an OFX::UnsupportedFileError.
 
-== Creator
+## Creator
 
 * Nando Vieira - http://simplesideias.com.br
 
-== Maintainer of this fork
+## Maintainer of this fork
 
 * Dovetail Studios - https://www.dovetailstudios.com/
 
-== License
+## License
 
 (The MIT License)
 
