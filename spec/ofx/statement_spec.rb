@@ -42,7 +42,7 @@ describe OFX::Statement do
       end
 
       it "returns balance date" do
-        balance.posted_at.should == Time.parse("2009-11-01 UTC")
+        balance.posted_at.should == Time.parse("2009-11-01 00:00:00 UTC")
       end
     end
 
@@ -58,7 +58,7 @@ describe OFX::Statement do
       end
 
       it "returns available balance date" do
-        available_balance.posted_at.should == Time.parse("2009-11-01 UTC")
+        available_balance.posted_at.should == Time.parse("2009-11-01 00:00:00 UTC")
       end
 
       context "when AVAILBAL not found" do
